@@ -1,0 +1,18 @@
+html {
+    --portfolio-base-bg-color: #303841;
+    --portfolio-base-text-color: #94a0ad;
+
+    @media (prefers-color-scheme: light) {
+        --portfolio-base-bg-color: #e3f2fd;
+        --portfolio-base-text-color: #000000;
+    }
+}
+
+body {
+    margin: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    background-color: var(--portfolio-base-bg-color);
+    color: var(--portfolio-base-text-color);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
