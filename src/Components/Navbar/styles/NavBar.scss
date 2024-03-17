@@ -1,0 +1,36 @@
+.navbar {
+    display: block;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px #666565 solid;
+
+    .navbar-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .row-item {
+        display: flex;
+        align-items: center;
+    }
+
+    #side-menu-icon-button {
+        font-size: 1.6rem;
+        border-radius: 5px;
+        border: 1px #666565 solid;
+    }
+
+    #side-menu-icon-button:hover {
+        border: 1px #9e9e9e solid;
+    }
+
+    sl-avatar {
+        --size: 40px;
+        margin-right: 1rem;
+    }
+
+    sl-icon-button {
+        margin-right: 1rem;
+    }
+}

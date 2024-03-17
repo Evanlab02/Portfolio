@@ -1,14 +1,6 @@
 .page-title {
-    --portfolio-title-color: #acbfd2;
-
-    @media (prefers-color-scheme: light) {
-        --portfolio-title-color: #000000;
-    }
-
-    font-family: IBM Plex Sans,
-    sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
     margin: 0;
-    color: var(--portfolio-title-color);
     font-weight: 500;
     line-height: 1.1;
 }

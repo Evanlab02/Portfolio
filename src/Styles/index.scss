@@ -1,6 +1,10 @@
 html {
-    --portfolio-base-bg-color: #303841;
-    --portfolio-base-text-color: #94a0ad;
+    --portfolio-base-bg-color: #0d1117;
+    --portfolio-base-text-color: #e6edf3;
+    --sl-border-radius-circle: 50%;
+    --sl-border-radius-pill: 9999px;
+    --sl-input-height-small: 1.875rem;
+    --sl-input-font-size-small: 1rem;
 
     @media (prefers-color-scheme: light) {
         --portfolio-base-bg-color: #e3f2fd;
